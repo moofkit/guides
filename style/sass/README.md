@@ -21,7 +21,6 @@
 * Use parentheses around individual operations in shorthand declarations: `padding: ($variable * 1.5) ($variable * 2);`
 * Use double colons for pseudo-elements
 * Use a `%` unit for the amount/weight when using Sass's color functions: `darken($color, 20%)`, not `darken($color, 20)`
-* Avoid writing vendor prefixes and instead use a tool like [Autoprefixer](https://github.com/postcss/autoprefixer) to generate them based on the project-specific browser support that's needed.
 
 ## Order
 

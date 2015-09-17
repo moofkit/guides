@@ -205,6 +205,11 @@ CSS
 ---
 
 * Use Sass.
+* Avoid writing vendor prefixes and instead use a tool like
+  [Autoprefixer][autoprefixer] to generate them based on the project-specific
+  browser support that's needed.
+
+[autoprefixer]: https://github.com/postcss/autoprefixer
 
 Sass
 ----
